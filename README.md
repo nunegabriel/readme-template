@@ -24,10 +24,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+<!--   <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Space Travelers' Hub</b></h3>
 
 </div>
 
@@ -57,17 +57,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Space Travelers' Hub <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**Space Travelers' Hub ** is a web application for a company that provides commercial and scientific space travel services. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Reactjs<br>
+> Redux<br>
+> CSS
 
 <details>
   <summary>Client</summary>
@@ -76,7 +78,7 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
+<!-- <details>
   <summary>Server</summary>
   <ul>
     <li><a href="https://expressjs.com/">Express.js</a></li>
@@ -88,17 +90,17 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+<!-- > The application allows users to book rockets and join selected space missions. -->
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[book rockets]**
+- **[ join selected space missions]**
+<!-- - **[key_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +118,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+<!-- > run ```git clone https://github.com/nunegabriel/React-Group-Project.git```
+> cd React-Group-Project
+>  run ```npm start``` -->
 
 To get a local copy up and running, follow these steps.
 
@@ -131,60 +135,68 @@ Example command:
  gem install rails
 ```
  -->
+ > git installed <br>
+ > install all dependenciew with ```npm i ```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+
+<!-- Example commands: -->
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/nunegabriel/React-Group-Project
 ```
---->
+-
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+
+<!-- Example command: -->
 
 ```sh
   cd my-project
-  gem install
+  npm install
 ```
---->
+-
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
-```sh
-  rails server
+<!-- Example command: -->
+
+```npm start
 ```
---->
+
 
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
+ 
+ Track CSS linter errors run:
 ```sh
-  bin/rails test test/models/article_test.rb
+npx stylelint "**/*.{css,scss}"
+````
+
+Track JavaScript linter errors run:
+```sh
+npx eslint .
+````
+
+Run Functional tests
+```sh
+  npm test
 ```
---->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -196,23 +208,29 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+AUTHORS
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="authors">Gabriel Nunekpeku</a>
+## 👥 Authors <a name="authors">Nejjari Abdelhafid</a>
 
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Nejjari Abdelhafid**
 
-👤 **Author2**
+- GitHub: [@Nejjari001](https://github.com/Nejjari001)
+- Twitter: [@@AbdoNJ19](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdelhafid-nejjari)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Author 2
+
+👤 **Gabriel Nunekpeku**
+
+- GitHub: [@githubhandle](https://github.com/nunegabriel)
+- Twitter: [@twitterhandle](https://twitter.com/_cornrow)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gabriel-nunekpeku-623608173/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,12 +238,12 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!-- > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
-
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -252,9 +270,12 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank...
+* Thanks to the Microverse team for the great curriculum.
+* Thanks to the Code Reviewer(s) for the insightful feedbacks.
+* A great thanks to My coding partner, morning session team, and standup team for their contributions.
+* Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -262,7 +283,7 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
@@ -271,7 +292,7 @@ I would like to thank...
 - **[Question_2]**
 
   - [Answer_2]
-
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
